@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    container_name: ds-uv-jupyter
+    container_name: ds-lv2
     ports:
       - "8888:8888"
     volumes:
